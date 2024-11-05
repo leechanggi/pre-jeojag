@@ -1,6 +1,7 @@
 @import './_font.css';
 @import './_global.css';
 
-#storybook-root {
-	font-family: var(--font-pretendard);
+#storybook-root,
+.docs-story {
+	font-family: var(--font-pretendard) !important;
 }
