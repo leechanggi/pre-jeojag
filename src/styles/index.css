@@ -1,7 +1,13 @@
 @import './_font.css';
 @import './_global.css';
 
+/* storybook */
 #storybook-root,
-.docs-story {
+.docs-story,
+.docblock-argstable {
 	font-family: var(--font-pretendard) !important;
+}
+
+body {
+	font-family: var(--font-pretendard);
 }
