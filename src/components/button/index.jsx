@@ -48,7 +48,7 @@ const Button = React.forwardRef((props, forwardRef) => {
 	} = props;
 	const Comp = asChild ? Slot : 'button';
 	const replaceType = asChild ? undefined : type;
-	const replaceDisabled = loading ? true : loading;
+	const replaceDisabled = loading ? true : disabled;
 
 	return (
 		<Comp
